@@ -11,7 +11,7 @@ rgb.blink() # red for 1 second, green for 1 second, blue for 1 second
 print("Blinking") # Runs immediately
 
 sleep(6)
-led.off()
+rgb.off()
 --- /code ---
 
 Blink on and off between a single colour and off `(0, 0, 0)`:
@@ -23,10 +23,7 @@ line_numbers: false
 ---
 # blink purple 2 seconds, off 0.5 seconds
 rgb.blink(on_times=(2, 0.5), colors=((255, 0, 255), (0, 0, 0)), wait=True, n=3)
-print("Blinking") # Runs immediately
-
-sleep(6)
-led.off()
+print("Finished blinking") # Runs after 3 repeats
 --- /code ---
 
 Blink a fixed number of times, with different timings and colours:
@@ -51,7 +48,7 @@ Use `pulse` to gradually change the brightness and colour of an RGB LED:
 language: python
 line_numbers: false
 ---
-led.pulse() # pulse red for 1 second, green for 1 second, blue for 1 second
+rgb.pulse() # pulse red for 1 second, green for 1 second, blue for 1 second
 print("Pulsing") # Runs immediately
 
 --- /code ---
