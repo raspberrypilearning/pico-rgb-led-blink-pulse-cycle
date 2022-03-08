@@ -1,0 +1,10 @@
+title: Blink, pulse and cycle an RGB LED
+hero_image: images/banner.png
+description: Blink, pulse and cycle an RGB LED on the Raspberry Pi Pico
+version: 4
+listed: false
+copyedit: false
+last_tested: "2022-03-08"
+steps:
+  - title:  Blink, pulse and cycle an RGB LED
+
