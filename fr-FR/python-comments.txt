@@ -1,21 +1,21 @@
-red for 1 second, green for 1 second, blue for 1 second
+rouge pendant 1 seconde, vert pendant 1 seconde, bleu pendant 1 seconde
 
-Runs immediately
+S'exécute immédiatement
 
-blink purple 2 seconds, off 0.5 seconds
+clignotement violet 2 secondes, éteint 0,5 seconde
 
-Runs after 3 repeats
+Exécuter après 3 répétitions
 
-blink red 1 second, green 0.5 seconds, blue 0.25 seconds
+clignotement rouge 1 seconde, vert 0,5 seconde, bleu 0,25 seconde
 
-Runs after 2 blink repeats
+Fonctionne après 2 répétitions de clignotement
 
-pulse red for 1 second, green for 1 second, blue for 1 second
+impulsion rouge pendant 1 seconde, verte pendant 1 seconde, bleue pendant 1 seconde
 
-2 second to fade from purple to off, 0.5 seconds to change from off to purple
+2 secondes pour passer du violet à éteint, 0,5 seconde pour passer d'éteint à violet
 
-Runs after 3 pulses
+Fonctionne après 3 impulsions
 
-Gradually colour cycle through colours between red and green, green and blue then blue and red
+Progressivement, faites défiler les couleurs entre le rouge et le vert, le vert et le bleu puis le bleu et le rouge
 
-Colour cycle slower in the opposite direction
+Cycle de couleur plus lent dans la direction opposée
