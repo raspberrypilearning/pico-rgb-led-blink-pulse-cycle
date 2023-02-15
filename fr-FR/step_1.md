@@ -11,17 +11,17 @@ rgb.blink() # red for 1 second, green for 1 second, blue for 1 second print("Bli
 
 sleep(6) rgb.off() --- /code ---
 
-Blink on and off between a single colour and off `(0, 0, 0)`:
+Clignotement allumé et éteint entre une seule couleur et éteint `(0, 0, 0)`:
 
 --- code ---
 ---
 language: python
 line_numbers: false
 ---
-# blink purple 2 seconds, off 0.5 seconds
+# clignotement violet 2 secondes, éteint 0,5 seconde
 rgb.blink(on_times=(2, 0.5), colors=((255, 0, 255), (0, 0, 0)), wait=True, n=3) print("Finished blinking") # Runs after 3 repeats --- /code ---
 
-Blink a fixed number of times, with different timings and colours:
+Clignote un nombre fixe de fois, avec des durées et des couleurs différentes :
 
 --- code ---
 ---
@@ -33,9 +33,9 @@ rgb.blink((1, 0.5, 0.25), colors=((255, 0, 0), (0, 255, 0), (0, 0, 255)), wait=T
 
 --- /code ---
 
-**Tip:** If you don't set off_time then it will be the same as on_time.
+**Astuce :** Si tu ne définis pas off_time, ce sera le même que pour on_time.
 
-Use `pulse` to gradually change the brightness and colour of an RGB LED:
+Utilise `pulse` pour modifier progressivement la luminosité et la couleur d'une LED RVB :
 
 --- code ---
 ---
@@ -46,19 +46,19 @@ rgb.pulse() # pulse red for 1 second, green for 1 second, blue for 1 second prin
 
 --- /code ---
 
-Control the pulse speed between a colour and off `(0, 0, 0)` with a fixed number of repeats:
+Contrôle la vitesse d'impulsion entre une couleur et off `(0, 0, 0)` avec un nombre fixe de répétitions :
 
 --- code ---
 ---
 language: python
 line_numbers: false
 ---
-# 2 second to fade from purple to off, 0.5 seconds to change from off to purple
+# 2 secondes pour passer du violet à éteint, 0,5 seconde pour passer d'éteint au violet
 rgb.pulse(fade_times=(2, 0.5), colors=((255, 0, 255), (0, 0, 0)), wait=True, n=3) print("Finished pulsing") # Runs after 3 pulses
 
 --- /code ---
 
-Use `cycle` to gradually change between colours:
+Utilise `cycle` pour passer progressivement d'une couleur à l'autre :
 
 --- code ---
 ---
@@ -69,16 +69,16 @@ rgb.cycle() # Gradually colour cycle through colours between red and green, gree
 
 --- /code ---
 
-Control the colour, times and repeats:
+Contrôle la couleur, les temps et les répétitions :
 
 --- code ---
 ---
 language: python
 line_numbers: false
 ---
-# Colour cycle slower in the opposite direction
+# Cycle de couleur plus lent dans la direction opposée
 rgb.cycle(fade_times=3, colors=((0, 0, 255), (0, 255, 0), (255, 0, 0)), wait=True, n=2) rgb.off()
 
 --- /code ---
 
-**Tip:** `blink`, `pulse` and `cycle` will run until `off` is called or `blink`, `pulse` or `cycle` are called with new settings. Use `wait=True` and set `n` to blink or pulse a fixed number of times. 
+**Astuce :** `blink`, `pulse` et `cycle` fonctionneront jusqu'à ce que `off` soit appelé ou `blink`, `pulse` ou `cycle` soient appelés avec de nouveaux réglages. Utilise `wait=True` et régle `n` pour clignoter ou pulser un nombre fixe de fois. 
