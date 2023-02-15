@@ -1,0 +1,21 @@
+red for 1 second, green for 1 second, blue for 1 second
+
+Runs immediately
+
+blink purple 2 seconds, off 0.5 seconds
+
+Runs after 3 repeats
+
+blink red 1 second, green 0.5 seconds, blue 0.25 seconds
+
+Runs after 2 blink repeats
+
+pulse red for 1 second, green for 1 second, blue for 1 second
+
+2 second to fade from purple to off, 0.5 seconds to change from off to purple
+
+Runs after 3 pulses
+
+Gradually colour cycle through colours between red and green, green and blue then blue and red
+
+Colour cycle slower in the opposite direction
