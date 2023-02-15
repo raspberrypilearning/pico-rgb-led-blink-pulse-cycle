@@ -1,9 +1,9 @@
-Blinking
+Clignotant
 
-Finished blinking
+Clignotement terminé
 
-Pulsing
+Pulsation
 
-Finished pulsing
+Pulsation terminée
 
 Cycle
