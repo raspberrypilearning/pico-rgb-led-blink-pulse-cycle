@@ -1,6 +1,6 @@
-Use `blink` change between colours on an RGB LED.
+Utilise `blink` pour passer d'une couleur à l'autre sur une LED RVB.
 
-Blink an LED:
+Faire clignoter une LED :
 
 --- code ---
 ---
