@@ -1,11 +1,11 @@
-title: Blink, pulse and cycle an RGB LED
+title: Clignotement, impulsion et cycle d'une LED RVB
 hero_image: images/banner.png
-description: Blink, pulse and cycle an RGB LED on the Raspberry Pi Pico
+description: Clignotement, impulsion et cycle d'une LED RVB sur le Raspberry Pi Pico
 version: 4
 listed: false
 copyedit: false
 last_tested: "2022-03-08"
 steps:
   - 
-    title: Blink, pulse and cycle an RGB LED
+    title: Clignotement, impulsion et cycle d'une LED RVB
 
