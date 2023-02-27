@@ -6,13 +6,13 @@ Taak onmiddellijk uitvoeren
 
 Voert de taak uit na 3 herhalingen
 
-1 seconde rood, 0,5 seconde groen en 0,5 seconden blauw knipperen
+1 seconde rood, 0,5 seconde groen en 0,25 seconden blauw knipperen
 
 Taak uitvoeren na 2 keer knipperen
 
 pulseer rood gedurende 1 seconde, groen gedurende 1 seconde, blauw gedurende 1 seconde
 
-2 seconden om te vervagen van paars naar uit, 0,5 seconden om van uit naar paars te schakelen
+2 seconden om te vervagen van paars naar uit, 0,5 seconden om van uit naar paars te veranderen
 
 Voert de taak uit na 3 pulsen
 
