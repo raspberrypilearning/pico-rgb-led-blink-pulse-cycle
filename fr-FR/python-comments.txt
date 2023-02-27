@@ -1,0 +1,21 @@
+rouge pendant 1 seconde, vert pendant 1 seconde, bleu pendant 1 seconde
+
+S'exécute immédiatement
+
+clignotement violet 2 secondes, éteint 0,5 seconde
+
+Exécuter après 3 répétitions
+
+clignotement rouge 1 seconde, vert 0,5 seconde, bleu 0,25 seconde
+
+Fonctionne après 2 répétitions de clignotement
+
+impulsion rouge pendant 1 seconde, verte pendant 1 seconde, bleue pendant 1 seconde
+
+2 secondes pour passer du violet à éteint, 0,5 seconde pour passer d'éteint à violet
+
+Fonctionne après 3 impulsions
+
+Progressivement, faites défiler les couleurs entre le rouge et le vert, le vert et le bleu puis le bleu et le rouge
+
+Cycle de couleur plus lent dans la direction opposée

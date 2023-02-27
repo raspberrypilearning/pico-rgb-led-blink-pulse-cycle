@@ -1,0 +1,21 @@
+rood gedurende 1 seconde, groen gedurende 1 seconde, blauw gedurende 1 seconde
+
+Taak onmiddellijk uitvoeren
+
+2 seconden paars knipperen, 0,5 seconden uit
+
+Voert de taak uit na 3 herhalingen
+
+1 seconde rood, 0,5 seconde groen en 0,5 seconden blauw knipperen
+
+Taak uitvoeren na 2 keer knipperen
+
+pulseer rood gedurende 1 seconde, groen gedurende 1 seconde, blauw gedurende 1 seconde
+
+2 seconden om te vervagen van paars naar uit, 0,5 seconden om van uit naar paars te schakelen
+
+Voert de taak uit na 3 pulsen
+
+Geleidelijke kleurcyclus door kleuren tussen rood en groen, groen en blauw, dan blauw en rood
+
+Kleurcyclus langzamer in de tegenovergestelde richting

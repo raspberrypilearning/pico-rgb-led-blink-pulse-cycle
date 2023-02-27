@@ -1,0 +1,11 @@
+---
+title: Een RGB-LED laten knipperen, pulseren of een cyclus laten doorlopen
+hero_image: images/banner.png
+description: Een RGB-LED op de Raspberry Pi Pico laten knipperen, pulseren of een cyclus laten doorlopen
+version: 4
+listed: false
+copyedit: false
+last_tested: "2022-03-08"
+steps:
+  - title: Een RGB-LED laten knipperen, pulseren of een cyclus laten doorlopen
+
