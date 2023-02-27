@@ -1,6 +1,6 @@
-Use `blink` change between colours on an RGB LED.
+Gebruik `blink` om kleuren te wisselen in een RGB LED.
 
-Blink an LED:
+Een LED laten knipperen:
 
 --- code ---
 ---
@@ -11,17 +11,17 @@ rgb.blink() # red for 1 second, green for 1 second, blue for 1 second print("Bli
 
 sleep(6) rgb.off() --- /code ---
 
-Blink on and off between a single colour and off `(0, 0, 0)`:
+Knipper aan en uit tussen een enkele kleur en uit `(0, 0, 0)`:
 
 --- code ---
 ---
 language: python
 line_numbers: false
 ---
-# blink purple 2 seconds, off 0.5 seconds
+# 2 seconden paars knipperen, 0,5 seconden uit
 rgb.blink(on_times=(2, 0.5), colors=((255, 0, 255), (0, 0, 0)), wait=True, n=3) print("Finished blinking") # Runs after 3 repeats --- /code ---
 
-Blink a fixed number of times, with different timings and colours:
+Een vast aantal keren knipperen, met verschillende tijden en kleuren:
 
 --- code ---
 ---
@@ -33,9 +33,9 @@ rgb.blink((1, 0.5, 0.25), colors=((255, 0, 0), (0, 255, 0), (0, 0, 255)), wait=T
 
 --- /code ---
 
-**Tip:** If you don't set off_time then it will be the same as on_time.
+**Tip:** Als je geen aparte off_time hebt ingesteld zal deze hetzelfde zijn als on_time.
 
-Use `pulse` to gradually change the brightness and colour of an RGB LED:
+Gebruik `pulse` om geleidelijk de helderheid van een RGB LED te veranderen:
 
 --- code ---
 ---
@@ -46,19 +46,19 @@ rgb.pulse() # pulse red for 1 second, green for 1 second, blue for 1 second prin
 
 --- /code ---
 
-Control the pulse speed between a colour and off `(0, 0, 0)` with a fixed number of repeats:
+Bestuur de pulssnelheid tussen een kleur en uit `(0, 0, 0)` met een vast aantal herhalingen:
 
 --- code ---
 ---
 language: python
 line_numbers: false
 ---
-# 2 second to fade from purple to off, 0.5 seconds to change from off to purple
+# 2 seconden om te vervagen van paars naar uit, 0,5 seconden om van uit naar paars te schakelen
 rgb.pulse(fade_times=(2, 0.5), colors=((255, 0, 255), (0, 0, 0)), wait=True, n=3) print("Finished pulsing") # Runs after 3 pulses
 
 --- /code ---
 
-Use `cycle` to gradually change between colours:
+Gebruik `cycle` om geleidelijk over te schakelen tussen kleuren:
 
 --- code ---
 ---
@@ -69,16 +69,16 @@ rgb.cycle() # Gradually colour cycle through colours between red and green, gree
 
 --- /code ---
 
-Control the colour, times and repeats:
+Regel de kleur, tijdsduur en herhalingen:
 
 --- code ---
 ---
 language: python
 line_numbers: false
 ---
-# Colour cycle slower in the opposite direction
+# Kleurcyclus langzamer in de tegenovergestelde richting
 rgb.cycle(fade_times=3, colors=((0, 0, 255), (0, 255, 0), (255, 0, 0)), wait=True, n=2) rgb.off()
 
 --- /code ---
 
-**Tip:** `blink`, `pulse` and `cycle` will run until `off` is called or `blink`, `pulse` or `cycle` are called with new settings. Use `wait=True` and set `n` to blink or pulse a fixed number of times. 
+**Tip:** `blink` en `pulse` en `cycle` worden uitgevoerd totdat `off` wordt aangeroepen of tot `blink`, `pulse` of `cycle` worden aangeroepen met nieuwe instellingen. Gebruik `wait=True` en stel `n` in om een vast aantal keren te knipperen of te pulseren. 
