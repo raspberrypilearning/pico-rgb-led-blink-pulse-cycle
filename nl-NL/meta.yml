@@ -1,11 +1,11 @@
-title: Blink, pulse and cycle an RGB LED
+title: Een RGB-LED laten knipperen, pulseren of een cyclus laten doorlopen
 hero_image: images/banner.png
-description: Blink, pulse and cycle an RGB LED on the Raspberry Pi Pico
+description: Een RGB-LED op de Raspberry Pi Pico laten knipperen, pulseren of een cyclus laten doorlopen
 version: 4
 listed: false
 copyedit: false
 last_tested: "2022-03-08"
 steps:
   - 
-    title: Blink, pulse and cycle an RGB LED
+    title: Een RGB-LED laten knipperen, pulseren of een cyclus laten doorlopen
 
