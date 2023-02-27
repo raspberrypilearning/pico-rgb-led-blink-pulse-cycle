@@ -1,9 +1,9 @@
-Blinking
+Knipperen
 
-Finished blinking
+Knipperen voltooid
 
-Pulsing
+Pulseren
 
-Finished pulsing
+Pulseren voltooid
 
-Cycle
+Cyclus
