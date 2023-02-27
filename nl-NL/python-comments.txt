@@ -1,21 +1,21 @@
-red for 1 second, green for 1 second, blue for 1 second
+rood gedurende 1 seconde, groen gedurende 1 seconde, blauw gedurende 1 seconde
 
-Runs immediately
+Taak onmiddellijk uitvoeren
 
-blink purple 2 seconds, off 0.5 seconds
+2 seconden paars knipperen, 0,5 seconden uit
 
-Runs after 3 repeats
+Voert de taak uit na 3 herhalingen
 
-blink red 1 second, green 0.5 seconds, blue 0.25 seconds
+1 seconde rood, 0,5 seconde groen en 0,5 seconden blauw knipperen
 
-Runs after 2 blink repeats
+Taak uitvoeren na 2 keer knipperen
 
-pulse red for 1 second, green for 1 second, blue for 1 second
+pulseer rood gedurende 1 seconde, groen gedurende 1 seconde, blauw gedurende 1 seconde
 
-2 second to fade from purple to off, 0.5 seconds to change from off to purple
+2 seconden om te vervagen van paars naar uit, 0,5 seconden om van uit naar paars te schakelen
 
-Runs after 3 pulses
+Voert de taak uit na 3 pulsen
 
-Gradually colour cycle through colours between red and green, green and blue then blue and red
+Geleidelijke kleurcyclus door kleuren tussen rood en groen, groen en blauw, dan blauw en rood
 
-Colour cycle slower in the opposite direction
+Kleurcyclus langzamer in de tegenovergestelde richting
