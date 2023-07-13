@@ -34,7 +34,7 @@ Een vast aantal keren knipperen, met verschillende tijden en kleuren:
 language: python
 line_numbers: false
 ---
-# 1 seconde rood, 0,5 seconde groen en 0,5 seconden blauw knipperen
+# 1 seconde rood, 0,5 seconde groen en 0,25 seconden blauw knipperen
 rgb.blink((1, 0.5, 0.25), colors=((255, 0, 0), (0, 255, 0), (0, 0, 255)), wait=True, n=2) 
 print("Knipperen voltooid") # Taak uitvoeren na 2 keer knipperen
 
@@ -61,7 +61,7 @@ Bestuur de pulssnelheid tussen een kleur en uit `(0, 0, 0)` met een vast aantal 
 language: python
 line_numbers: false
 ---
-# 2 seconden om te vervagen van paars naar uit, 0,5 seconden om van uit naar paars te schakelen
+# 2 seconden om te vervagen van paars naar uit, 0,5 seconden om van uit naar paars te veranderen
 rgb.pulse(fade_times=(2, 0.5), colors=((255, 0, 255), (0, 0, 0)), wait=True, n=3) 
 print("Pulseren voltooid") # Voert de taak uit na 3 pulsen
 
